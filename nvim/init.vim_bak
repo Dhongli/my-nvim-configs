@@ -1,0 +1,20 @@
+set number
+set relativenumber
+set autoindent
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set smarttab
+set encoding=UTF-8
+
+
+call plug#begin('F:\SoftWare\neovim\plugged')  
+  
+Plug 'navarasu/onedark.nvim'  
+  
+call plug#end()
+
+let g:onedark_config = {  
+    \ 'style': 'warm',  
+\}  
+colorscheme onedark
